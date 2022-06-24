@@ -1,0 +1,895 @@
+$colorRosa: rgb(221, 174, 168);
+$colorVerde: rgb(16, 90, 73);
+$colorDorado: rgb(185, 162, 62);
+$colorBlanco: white;
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: $colorRosa;
+    font-family: 'Spartan', sans-serif;
+}
+section{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.logIn{
+    @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+  background: -moz-linear-gradient(right, #76b852, #8DC26F);
+  background: -o-linear-gradient(right, #76b852, #8DC26F);
+  background: linear-gradient(to left, #76b852, #8DC26F);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+}
+.sectInicio_titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-weight: 500;
+        font-size: 50px;
+        color:$colorVerde
+    }
+.sectInicio_parrafoTitulo{
+        padding: 20px;
+        background-color: $colorBlanco;
+        color: $colorDorado;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: justify;
+        border-radius: 5px;
+    }
+.sectInicio_boton{
+        background-color: $colorVerde;
+        border-radius: 15px;
+        padding: 5px;
+.sectInicio_botonLink{
+            text-decoration: none;
+            color: $colorBlanco;
+            font-weight: 400;
+
+        }
+    }
+.sectInicio_boton:hover{
+        background-color: $colorBlanco;
+        transition: 1s;
+.sectInicio_botonLink:hover{
+            color: $colorVerde;
+        }
+    }
+#carouselExampleSlidesOnly{
+    display: none;
+    }
+.controlMedias_inicio{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+footer{
+
+    .susNews{
+        height: 100%;
+        width: 50%;
+        legend{
+            font-size: 15px;
+            font-weight: 500;
+            color: $colorDorado;
+        }
+        .botonSuscribe{
+            background-color: $colorRosa;
+            color: $colorVerde;
+        }
+        #emailsus{
+            width: 100%;
+        }
+    }
+    .copyr{
+        height: 100%;
+        width: 50%;
+        padding: 2px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+    background-color: $colorVerde;
+    position: fixed;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid $colorDorado;
+    border-radius: 15px;
+    padding: 5px
+    
+    
+}
+.botonHome{
+    height: 50%;
+    width: 30%;
+    background: none;
+    .botonHome_img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.navbar{
+    height: 100%;
+    width: 100%;
+    border: solid $colorBlanco;
+    border-radius: 15px;
+    .container-fluid{
+        height: 100%;
+        width: 100%;
+        background-color:$colorVerde;
+        border-radius: 15px;
+        padding: 5px;
+        
+    }
+   
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: $colorBlanco;
+}
+#navbarDropdownMenuLink{
+    color: $colorBlanco;
+}
+.dropdown-menu{
+    background-color: $colorRosa;
+    border-radius: 10px;
+    transition: 1s;
+    .dropdown-item{
+        color: $colorVerde;
+    }
+    .dropdown-item:hover{
+        color: $colorBlanco;
+        background-color: $colorVerde;
+        transition: 1s;
+    }
+}
+.btn-flotante {
+    display: none;
+}
+
+.sectRegisyContacto{
+    height: 100%;
+    width: 100%;
+    background-color: $colorBlanco;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    .formRegistro{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background: rgb(16,90,73);
+        background: linear-gradient(180deg, rgba(16,90,73,0.88) 0%, rgba(221,174,168,1) 98%); 
+        border-radius: 15px;
+        border: solid $colorDorado;
+        .ryc{
+            height: 100%;
+            width: 100%;
+        
+            .registroCliente{
+                height: 100%;
+                width: 100%;
+                .textoForm{
+                    font-weight: 400;
+                    font-size: 10px;
+                    color: black;
+                }
+            }
+        }
+    }
+    .formContacto{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        border-radius: 15px;
+        border: solid $colorDorado;
+        background: rgb(255,253,253);
+        background: linear-gradient(180deg, rgba(255,253,253,1) 0%, rgba(17,90,73,1) 85%); 
+        .ryc{
+            height: 100%;
+            width: 100%;
+        
+            .contactoCliente{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .textoForm{
+                    font-weight: 400;
+                    font-size: 10px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+.sectDevyVar{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .prodGeneral{
+        height: 80%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        .botonesDVP{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            .btn.btn-primary{
+                border-radius: 15px;
+                border: solid $colorDorado;
+                color: $colorVerde;
+            }
+            .btn.btn-primary:hover{
+                background-color: $colorBlanco;
+                transition: 1s;
+            }
+        }
+        .card{
+            height:15%;
+            width: 100%;
+        }
+    }
+}
+.tituloProducto{
+    color: $colorVerde;
+    font-size: 30px;
+    font-weight: 500;
+}
+.tituloPyV{
+    font-weight: 600;
+    font-size: 25px;
+    color:$colorVerde ;
+    background-color: $colorBlanco;
+    border: solid $colorDorado;
+    text-align: center;
+}
+
+.card-body{
+    height: 100%;
+    width: 100%;
+
+
+    .card-title{
+    color: $colorDorado;
+    font-weight: 500;
+    font-size: 30px;
+    }
+    .card-text{
+        color: $colorVerde;
+    }
+}
+.btn.btn-primary{
+    background-color: $colorRosa;
+    color: $colorVerde;
+    border:$colorBlanco;
+    font-size: 2rem;
+}
+.btn.btn-primary:hover{
+    background-color: $colorDorado;
+    color: $colorVerde;
+}
+.sectIndoor{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    .textoIndoor{
+        display: none;
+    }
+    .botonIndoor{
+        background-color: $colorBlanco;
+        color: $colorVerde;
+        border-radius: 15px;
+    }
+    .botonIndoor:hover{
+        background-color: $colorVerde;
+        color: $colorBlanco;
+        transition: 1s;
+    }
+}
+.carousel-caption{
+    h5{
+        color: $colorBlanco;
+    }
+    p{
+        color: $colorBlanco;
+    }
+    background-color: rgba(0, 0, 0, 0.603);
+
+}
+
+.sectSusyFer{
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+    overflow: scroll;
+    .textoSus{
+        display: none;
+    }
+    .prodSusyFer{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .susyfertWeb{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .sectInicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .controlMedias_inicio{
+            height: 100%;
+            width: 40%;
+            display: flex;
+            flex-direction: row;
+        
+        
+        
+            .sectInicio_titulo{
+                width: 100%;
+            }
+            .sectInicio_parrafoTitulo{
+                width: 100%;
+                text-align: center;
+              
+            }
+            .sectInicio_boton{
+                background-color: $colorVerde;
+                border-radius: 15px;
+                padding: 5px;
+                .sectInicio_botonLink{
+                    text-decoration: none;
+                    color: $colorBlanco;
+                    font-weight: 400;
+        
+                }
+            }
+            .sectInicio_boton:hover{
+                background-color: $colorBlanco;
+                transition: 1s;
+                .sectInicio_botonLink:hover{
+                    color: $colorVerde;
+                }
+            }
+        }
+        .carrusel{
+            height: 50%;
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+            #carouselExampleSlidesOnly{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .carousel-inner{
+                height: 85%;
+                width: 85%;
+                border-radius: 15px;
+            }
+        }
+    }
+    footer{
+        position: fixed;
+        .susNews{
+            height: 100%;
+            width: 30%;
+            legend{
+                font-size: 15px;
+                font-weight: 500;
+                color: $colorDorado;
+            }
+            .botonSuscribe{
+                background-color: $colorRosa;
+                color: $colorVerde;
+            }
+            #emailsus{
+                width: 100%;
+            }
+        }
+        .copyr{
+           width: 30%;
+        }
+    }
+    .btn-flotante {
+        display: block;
+        height: 10%;
+        width: 10%;
+        position: fixed;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+        border-radius: 50%;
+        
+        
+    }
+    .btn-flotante:hover {
+        background-color: $colorDorado;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-7px);
+        border-radius: 50%;
+    }
+    .btn-flotante_img{
+        height: 90%;
+        width: 90%;
+        margin: 5%;
+    }
+    .sectRegisyContacto{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content:  space-around;
+        align-items: center;
+        overflow: unset;
+        .formContacto{
+            height: 70%;
+            width: 40%;
+            .ryc{
+                height: 100%;
+                width: 100%;
+            
+                .contactoCliente{
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    .textoForm{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        
+        
+         .formRegistro{
+            height:70%;
+             width: 40%;
+            
+                
+            .ryc{
+                height: 100%;
+                width: 100%;
+                
+                .registroCliente{
+                    height: 100%;
+                    width: 100%;
+                    .textoForm{
+                        font-size: 20px;
+                    }
+                }
+                
+            }
+        }
+    }
+   
+    .sectDevyVar{
+        height: 70%;
+        width: 100%;
+        
+        .prodGeneral{
+            height: 100%;
+            width: 100%;
+            align-items: center;
+            .botonesDVP{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            .card{
+                height:15%;
+                width: 100%;
+            }
+        }
+    }
+    .sectIndoor{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: unset;
+        
+    
+    }
+    .sectSusyFer{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        .prodSusyFer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .sectInicio{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        .controlMedias_inicio{
+            height: 100%;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+        
+        
+        
+            .sectInicio_titulo{
+                width: 100%;
+            }
+            .sectInicio_parrafoTitulo{
+                width: 100%;
+              
+            }
+            .sectInicio_boton{
+                background-color: $colorVerde;
+                border-radius: 15px;
+                padding: 5px;
+                .sectInicio_botonLink{
+                    text-decoration: none;
+                    color: $colorBlanco;
+                    font-weight: 400;
+        
+                }
+            }
+            .sectInicio_boton:hover{
+                background-color: $colorBlanco;
+                transition: 1s;
+                .sectInicio_botonLink:hover{
+                    color: $colorVerde;
+                }
+            }
+        }
+        .carrusel{
+            height: 70%;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            #carouselExampleSlidesOnly{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .carousel-inner{
+                height: 100%;
+                width: 80%;
+                border-radius: 15px;
+            }
+          
+        }
+    }
+    footer{
+        position: fixed;
+        .susNews{
+            height: 100%;
+            width: 30%;
+            legend{
+                font-size: 15px;
+                font-weight: 500;
+                color: $colorDorado;
+            }
+            .botonSuscribe{
+                background-color: $colorRosa;
+                color: $colorVerde;
+            }
+            #emailsus{
+                width: 100%;
+            }
+        }
+        .copyr{
+           width: 30%;
+        }
+    }
+    .btn-flotante {
+        display: block;
+        height: 10%;
+        width: 10%;
+        position: fixed;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+        border-radius: 50%;
+        
+        
+    }
+    .btn-flotante:hover {
+        background-color: $colorDorado;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-7px);
+        border-radius: 50%;
+    }
+    .btn-flotante_img{
+        height: 90%;
+        width: 90%;
+        margin: 5%;
+    }
+    .sectRegisyContacto{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow: unset;
+        .formContacto{
+            height: 100%;
+            width: 30%;
+            .ryc{
+                height: 100%;
+                width: 100%;
+            
+                .contactoCliente{
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    .textoForm{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .formRegistro{
+            height: 100%;
+            width: 30%;
+            
+            
+            .ryc{
+                height: 100%;
+                width: 100%;
+            
+                .registroCliente{
+                    height: 80%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+                    .textoForm{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .sectDevyVar{
+        height: 60%;
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+        .prodGeneral{
+            height: 100%;
+            width: 100%;
+            
+            .botonesDVP{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                .btn.btn-primary{
+                    background-color: $colorRosa;
+                    color: $colorVerde;
+
+                }
+            }
+        
+            .tituloProducto{
+                width: 100%;
+                text-align: center;
+            }
+            .card{
+                height: 15%;
+                width: 100%;
+            }
+            
+        }
+    }
+    .sectIndoor{
+       height: 60%;
+       width: 100%;
+       display: flex;
+       flex-direction:row;
+       justify-content: space-around;
+       h2{
+           display: none;
+       }
+        .textoIndoor{
+            border: solid $colorDorado;
+            padding: 5px;
+            width: 20%;
+            display: block;
+            h3{
+                color: $colorVerde;
+                font-weight: 600;
+                
+            }
+            p{
+                background-color: $colorVerde;
+                border-radius: 10px;
+                color: $colorBlanco;
+                padding:10px;
+
+            }
+        }
+        .carousel{
+            height: 100%;
+            width: 30%;
+        }
+        .botonIndoor{
+            height: 20%;
+            width: 20%;
+            border: solid $colorDorado;
+        }
+    }
+    
+    .sectSusyFer{
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        overflow: unset;
+        .textoSus{
+            height: 80%;
+            width: 40%;
+            padding: 10px;
+            display: block;
+            border: solid $colorDorado;
+            border-radius: 10px;
+            margin-bottom: 5%;
+            p{
+                color: $colorVerde;
+                font-weight: 600;
+                font-size: 26px;
+            }
+        }
+        .prodSusyFer{
+            display: none;
+        
+        }
+        .susyfertWeb{
+            display: block;
+            margin-bottom: 5%;
+            height: 80%;
+            width: 40%;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+
+    }
+}
